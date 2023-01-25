@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DAY19Programmes.reversenumber&apos; to &apos;Divyareversenumber&apos;&#x0D;&#x0A;- Original project: &apos;automationProject&apos;&#x0D;&#x0A;- Original element: &apos;DAY19Programmes.reversenumber&apos;&#x0D;&#x0A;- Renamed element: &apos;DAY19Programmes.Divyareversenumber&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;reversenumber&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;DAY19Programmes{reversenumber.java[reversenumber" matchStrategy="1" name="Divyareversenumber" qualified="false" references="true" similarDeclarations="false" stamp="1673251494043" textual="false" version="1.0"/>
+</session>

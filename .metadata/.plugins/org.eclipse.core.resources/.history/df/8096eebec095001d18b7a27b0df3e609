@@ -1,0 +1,22 @@
+package com.automationProject;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DataDrivenTest {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		FileInputStream file = new FileInputStream("C:\\Users\\patur\\Desktop\\EmpInfo.xlsx");
+		XSSFWorkbook wb = new XSSFWorkbook(file);
+		XSSFSheet s = wb.getSheet("Sheet1");
+		s.getLastRowNum();
+	}
+
+}

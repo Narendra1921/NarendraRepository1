@@ -1,0 +1,22 @@
+package webpages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+import utilities.commonMethods;
+
+public class NaukriPOM extends commonMethods {
+
+	@FindBy(how=How.XPATH,using="//input[@id=\"usernameField\"]")
+	
+	public WebElement EmailID;
+	
+	@FindBy(how=How.XPATH,using="//input[@id=\"passwordField\"]")
+	
+	public WebElement Password;
+
+	@FindBy(how=How.XPATH,using="//form[@id=\"loginForm\"]/div[2]/div[3]/div/button[1]")
+	
+	public WebElement Btnlogin;
+}
